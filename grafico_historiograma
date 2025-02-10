@@ -1,0 +1,4 @@
+# Creating a histogram
+plt.hist(penguins['bill_length_mm'])
+plt.title('Penguin bill length distribution')
+plt.show()
