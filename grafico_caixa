@@ -1,0 +1,7 @@
+# Data preparation
+penguins_cleaned = penguins.dropna()
+​
+# Creating a box plot
+plt.boxplot(penguins_cleaned['bill_length_mm'])
+plt.title('Penguin bill length distribution')
+plt.show()
