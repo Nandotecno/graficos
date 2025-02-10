@@ -1,0 +1,4 @@
+# Creating a scatter plot
+plt.scatter(penguins['bill_length_mm'], penguins['bill_depth_mm'])
+plt.title('Penguin bill length vs. bill depth')
+plt.show()
