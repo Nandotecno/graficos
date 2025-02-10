@@ -1,0 +1,7 @@
+# Data preparation
+flights_grouped = flights[['year', 'passengers']].astype({'year': 'string'}).groupby('year').sum().reset_index()
+​
+# Creating a line plot
+plt.plot(flights_grouped['year'], flights_grouped['passengers'])
+plt.title('Total number of passengers by year')
+plt.show()
