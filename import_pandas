@@ -1,0 +1,10 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+​
+penguins = sns.load_dataset('penguins')
+flights = sns.load_dataset('flights')
+titanic = sns.load_dataset('titanic')
+car_crashes = sns.load_dataset('car_crashes')
+fmri = sns.load_dataset('fmri')
+diamonds = sns.load_dataset('diamonds')
