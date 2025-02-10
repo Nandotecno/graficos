@@ -1,0 +1,7 @@
+# Data preparation
+penguins_grouped = penguins[['species', 'bill_length_mm']].groupby('species').mean().reset_index()
+​
+# Creating a bar chart
+plt.bar(penguins_grouped['species'], penguins_grouped['bill_length_mm'])
+plt.title('Average penguin bill length by species')
+plt.show()
